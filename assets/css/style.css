@@ -16,10 +16,7 @@ text-align: center;
  color: #fff;
  padding: 10px;
 }
-/* .contener>section:nth-child(1)>ul>li:hover{
-    background-color: #fff;
-   text-decoration: underline;
-} */
+
 .contener>section:nth-child(1)>ul>li>a{
     text-decoration: none;
     color: #fff;
@@ -54,6 +51,10 @@ color:rgb(233, 19, 18);
 }
 .contener>section:nth-child(3){
     padding-top: 20px;
+    position: relative;
+    text-align: justify;
+    width: 80%;
+    left: 12%;
 }
 .contener>section:nth-child(3)>h1{
     padding: 20px ;
@@ -71,6 +72,10 @@ color:rgb(233, 19, 18);
 
 .article{
     padding: 10px ;
+    width: 80%;
+    text-align: justify;
+    position: relative;
+    left: 12%;
 }
 .article>h1{
     padding: 10px;
